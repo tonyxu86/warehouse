@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import '../../css/style.css';
 
-class Login_1 extends Component {
+class Login1 extends Component {
 
     render() {
         return (
-            <div class="login-05">
-                <div class="fifth-login">
+            <div className="login-05">
+                <div className="fifth-login">
                     <h2>LOGIN FORM</h2>
-                    <form class="five">
+                    <form className="five">
                         <li>
-                            <input type="text" class="text" value="EMAIL" />
-                            <label class =  " icon5 user2"></label>
+                            <input type="text" className="text" value="EMAIL" />
+                            <label className="icon5 user2"/>
                         </li>
-                        <li class="blue">
+                        <li className="blue">
                             <input type="password" value="PASSWORD" />
-                            <label class =  " icon5 lock2"></label>
+                            <label className =  "icon5 lock2"/>
                         </li>
-                        <div class="submit-five">
+                        <div className="submit-five">
                             <input type="submit" onClick="myFunction()" value="LOG IN" />
                         </div>
                     </form>
@@ -28,4 +28,4 @@ class Login_1 extends Component {
     }
 }
 
-export default Login_1;
+export default Login1;
